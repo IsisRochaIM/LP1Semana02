@@ -1,4 +1,4 @@
-﻿using System.Globalization;
+﻿using System;
 
 namespace TempConvert
 {
@@ -6,11 +6,7 @@ namespace TempConvert
     {
         private static void Main(string[] args)
         {
-             CultureInfo.CurrentCulture = CultureInfo.InvariantCulture;
-            Console.Write("Temperature: ");
-            string inpT = Console.ReadLine();
-            Console.Write("Unit (C/F): ");
-            string inpU = Console.ReadLine();
+            Console.WriteLine("Hello LP!");
         }
     }
 }
